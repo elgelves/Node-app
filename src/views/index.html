@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include ('partials/head.html') %>
+    <style>
+        body {
+            font-family: 'Anton', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    
+ 
+    <%- include ('partials/navigation.html') %>
+<div class="container">
+    
+        <header class="row">
+            <div class="col-lg-12 text-center">
+
+                <img src="/img/ELGP.png" class="animated pulse" alt="ELGP logo">
+            </div>
+        </header>
+    
+</div>
+<!--Section One-->
+<div class="container-fluid" id="about">
+    <div class="row bg-dark text-white p-2 text-center">
+        <div class="col-sm-6">
+            <i class="fab fa-vimeo fa-7x"></i>    
+        </div>
+        <div class="col-sm-6">
+            <h3>The most viewed videos on Vimeo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem doloribus quasi voluptatem nulla ad id sed illum nobis dolor quaerat aperiam dolorum rem rerum deleniti accusamus unde, quibusdam, natus sapiente.</p>
+        </div>
+    </div>
+</div>
+<%- include ('partials/footer.html') %>
+</body>
+</html>
